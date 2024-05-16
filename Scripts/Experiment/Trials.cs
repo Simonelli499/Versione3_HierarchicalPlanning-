@@ -27,7 +27,7 @@ public class Trials : MonoBehaviour
         else
         {
             mapNumber = ExperimentManager.Instance.currentMapIndex - 3;
-            trialText.text = mapNumber + "/" + "40";
+            trialText.text = mapNumber + "/" + "80";
             trialText.color = Color.white; // Reset the color to white if trials count is greater than 4
         }
 }
